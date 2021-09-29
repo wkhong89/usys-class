@@ -1,0 +1,38 @@
+<< Unix >>
+
+Unix (/ˈjuːnɪks/; trademarked as UNIX) is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, whose development started in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.[3]
+
+Initially intended for use inside the Bell System, AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including University of California, Berkeley (BSD), Microsoft (Xenix), Sun Microsystems (SunOS/Solaris), HP/HPE (HP-UX), and IBM (AIX). In the early 1990s, AT&T sold its rights in Unix to Novell, which then sold its Unix business to the Santa Cruz Operation (SCO) in 1995.[4] The UNIX trademark passed to The Open Group, an industry consortium founded in 1996, which allows the use of the mark for certified operating systems that comply with the Single UNIX Specification (SUS). However, Novell continues to own the Unix copyrights, which the SCO Group, Inc. v. Novell, Inc. court case (2010) confirmed.
+
+Unix systems are characterized by a modular design that is sometimes called the "Unix philosophy". According to this philosophy, the operating system should provide a set of simple tools, each of which performs a limited, well-defined function.[5] A unified filesystem (the Unix filesystem) and an inter-process communication mechanism known as "pipes" serve as the main means of communication,[3] and a shell scripting and command language (the Unix shell) is used to combine the tools to perform complex workflows.
+
+Unix distinguishes itself from its predecessors as the first portable operating system: almost the entire operating system is written in the C programming language, which allows Unix to operate on numerous platforms.[6]
+
+=========================================================================
+<< Overview >>
+Unix was originally meant to be a convenient platform for programmers developing software to be run on it and on other systems, rather than for non-programmers.[7][8][9] The system grew larger as the operating system started spreading in academic circles, and as users added their own tools to the system and shared them with colleagues.[10]
+
+At first, Unix was not designed to be portable[6] or for multi-tasking.[11] Later, Unix gradually gained portability, multi-tasking and multi-user capabilities in a time-sharing configuration. Unix systems are characterized by various concepts: the use of plain text for storing data; a hierarchical file system; treating devices and certain types of inter-process communication (IPC) as files; and the use of a large number of software tools, small programs that can be strung together through a command-line interpreter using pipes, as opposed to using a single monolithic program that includes all of the same functionality. These concepts are collectively known as the "Unix philosophy". Brian Kernighan and Rob Pike summarize this in The Unix Programming Environment as "the idea that the power of a system comes more from the relationships among programs than from the programs themselves".[12]
+
+By the early 1980s, users began seeing Unix as a potential universal operating system, suitable for computers of all sizes.[13][14] The Unix environment and the client–server program model were essential elements in the development of the Internet and the reshaping of computing as centered in networks rather than in individual computers.
+
+Both Unix and the C programming language were developed by AT&T and distributed to government and academic institutions, which led to both being ported to a wider variety of machine families than any other operating system.
+
+The Unix operating system consists of many libraries and utilities along with the master control program, the kernel. The kernel provides services to start and stop programs, handles the file system and other common "low-level" tasks that most programs share, and schedules access to avoid conflicts when programs try to access the same resource or device simultaneously. To mediate such access, the kernel has special rights, reflected in the distinction of kernel space from user space, the latter being a priority realm where most application programs operate.
+
+<< History >>
+The origins of Unix date back to the mid-1960s when the Massachusetts Institute of Technology, Bell Labs, and General Electric were developing Multics, a time-sharing operating system for the GE-645 mainframe computer.[15] Multics featured several innovations, but also presented severe problems. Frustrated by the size and complexity of Multics, but not by its goals, individual researchers at Bell Labs started withdrawing from the project. The last to leave were Ken Thompson, Dennis Ritchie, Douglas McIlroy, and Joe Ossanna,[11] who decided to reimplement their experiences in a new project of smaller scale. This new operating system was initially without organizational backing, and also without a name.
+
+The new operating system was a single-tasking system.[11] In 1970, the group coined the name Unics for Uniplexed Information and Computing Service as a pun on Multics, which stood for Multiplexed Information and Computer Services. Brian Kernighan takes credit for the idea, but adds that "no one can remember" the origin of the final spelling Unix.[16] Dennis Ritchie,[11] Doug McIlroy,[1] and Peter G. Neumann[17] also credit Kernighan.
+
+The operating system was originally written in assembly language, but in 1973, Version 4 Unix was rewritten in C.[11] Version 4 Unix, however, still had many PDP-11 dependent codes, and was not suitable for porting. The first port to another platform was made five years later (1978) for the Interdata 8/32.[18]
+
+In 1974, Ken Robinson of the Department of Computer Science at University of New South Wales (UNSW) in Australia requested a copy of Unix for their PDP-11/40 minicomputer from Dennis Ritchie at Bell Labs. This 1975 installation made UNSW the first university outside the United States to run Unix.[19]
+
+Bell Labs produced several versions of Unix that are collectively referred to as Research Unix. In 1975, the first source license for UNIX was sold to Donald B. Gillies at the University of Illinois at Urbana–Champaign Department of Computer Science (UIUC).[20] UIUC graduate student Greg Chesson, who had worked on the Unix kernel at Bell Labs, was instrumental in negotiating the terms of the license.[21]
+
+During the late 1970s and early 1980s, the influence of Unix in academic circles led to large-scale adoption of Unix (BSD and System V) by commercial startups, which in turn led to Unix fragmenting into multiple, similar but often slightly mutually-incompatible systems including DYNIX, HP-UX, SunOS/Solaris, AIX, and Xenix. In the late 1980s, AT&T Unix System Laboratories and Sun Microsystems developed System V Release 4 (SVR4), which was subsequently adopted by many commercial Unix vendors.
+
+In the 1990s, Unix and Unix-like systems grew in popularity and became the operating system of choice for over 90% of the world's top 500 fastest supercomputers,[22] as BSD and Linux distributions were developed through collaboration by a worldwide network of programmers. In 2000, Apple released Darwin, also a Unix system, which became the core of the Mac OS X operating system, later renamed macOS.[23]
+
+Unix operating systems are widely used in modern servers, workstations, and mobile devices.[24]
