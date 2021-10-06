@@ -25,4 +25,5 @@
 		> 하위 디렉토리를 포함한 디렉토리 전체를 복사
 	예)
 	$ cp -r test temp
-
+appending.. 
+appending2 ... 
