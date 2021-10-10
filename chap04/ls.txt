@@ -1,0 +1,8 @@
+cs1.txt
+file1
+hello
+hello.c
+img.jpg
+ls.txt
+pointer_exercise.c
+unix_wikipedia.txt
